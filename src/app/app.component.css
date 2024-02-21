@@ -1,0 +1,69 @@
+/* app.component.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Light gray background */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .word-card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  }
+  
+  .word-details {
+    font-size: 16px;
+  }
+  
+  .telegu {
+    font-weight: bold;
+    color: #333; /* Dark gray color */
+  }
+  
+  .english {
+    color: #007bff; /* Blue color */
+  }
+  
+  .hindi {
+    color: #dc3545; /* Red color */
+  }
+  
+  .pronunciation {
+    font-style: italic;
+  }
+  .title-wrapper {
+    margin-bottom: 20px; /* Add some spacing */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Animation */
+  @keyframes flip {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+  
+  #flip-text,
+  #flip-text-alt {
+    display: inline-block;
+    animation: flip 5s infinite alternate;
+  }
