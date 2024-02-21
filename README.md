@@ -16,7 +16,7 @@ Learn Telegu is a simple web application designed to help users learn Telegu wor
 - HttpClient: Angular module for making HTTP requests to the backend server.
 
 ## Installation and Setup
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/Sumit4482/Learn-Telegu`
 2. Navigate to the project directory: `cd learn-telegu`
 3. Install dependencies: `npm install`
 4. Start the Angular development server: `ng serve`
